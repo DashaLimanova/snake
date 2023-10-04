@@ -13,6 +13,7 @@ public class Snake {
     }
 
     public void move(){
+
         for (int i = length; i > 0 ; i--) {
             sX[i] = sX[i-1];
             sY[i] = sY[i-1];
