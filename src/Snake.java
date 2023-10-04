@@ -31,6 +31,5 @@ public class Snake {
 
         if (sY[0]>SnakeWindow.HEIGHT-1) sY[0]=0;
         if (sY[0]<0) sY[0] = SnakeWindow.HEIGHT-1;
-
     }
 }
